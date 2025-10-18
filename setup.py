@@ -18,6 +18,6 @@ setup(
     version='0.0.1',
     author='Peace',
     author_email = 'obeypeace007@gmail.com',
-    packages=find_packages(),
-    install_requires=get_requirements('requpipirements.txt')
+    packages=find_packages(), #searches for __init__.py files
+    install_requires=get_requirements('requirements.txt')
 )
